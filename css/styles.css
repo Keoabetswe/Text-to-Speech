@@ -2,3 +2,21 @@ body
 {
     background-color: cornflowerblue;
 }
+
+.container
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.textbox input
+{
+    width:300px;
+}
+
+.button input
+{
+    width:80px;
+}
