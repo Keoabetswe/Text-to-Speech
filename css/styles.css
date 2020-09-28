@@ -1,6 +1,7 @@
 body
 {
     background-color: cornflowerblue;
+    
 }
 
 .container
@@ -9,14 +10,20 @@ body
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    ;
 }
 
 .textbox input
 {
     width:300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .button input
 {
     width:80px;
+    color:black;
+    font-size: 20px;
 }
