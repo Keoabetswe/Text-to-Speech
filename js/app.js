@@ -1,9 +1,13 @@
-let speech = new SpeechSynthesisUtterance();
+function textToAudio()
+{
+    let msg = document.getElementById("tts");
+    let speech = new SpeechSynthesisUtterance();
 
-speech.lang = "en-US";
-speech.text = msg;
-speech.volume = 1;
-speech.rate = 1;
-speech.pitch = 1;
+    speech.lang = "en-US";
+    speech.text = msg;
+    speech.volume = 1;
+    speech.rate = 1;
+    speech.pitch = 1;
 
-window.SpeechSynthesis.speak(speech);
+    window.SpeechSynthesis.speak(speech);
+}
